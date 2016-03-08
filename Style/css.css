@@ -1,0 +1,197 @@
+
+.header {
+			width: 100%;
+			background-image: url("image/2.jpg");
+		}
+.footer {
+		}
+.layout { 
+			overflow: hidden;
+		}
+.layout DIV {
+			float: left;
+		}
+.r{
+	overflow-y: scroll;
+}
+h2{
+	font-family: Mistral;
+	font-size: 42px;
+	margin-left: 100px;
+}
+.img{
+	margin-left: 500px;
+	margin-top: -150px;
+}
+.text{
+	border: solid 1px black;
+	font-family: Monotype Corsiva;
+	font-size: 18px;
+	width: 320px;
+	height: 120px; 
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.text1{
+	border: solid 1px black;
+	font-family: Monotype Corsiva;
+	font-size: 18px;
+	width: 330px;
+	height: 210px; 
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.text2{
+	border: solid 1px black;
+	font-family: Monotype Corsiva;
+	font-size: 18px;
+	width: 330px;
+	height: 190px; 
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.text3{
+	border: solid 1px black;
+	font-family: Monotype Corsiva;
+	font-size: 18px;
+	width: 330px;
+	height: 145px; 
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.col1 {
+		width: 20%;
+		height: 80%;
+	}
+.col2 {
+		overflow: auto; 
+		width: 59%;
+		height: 80%;
+	}
+.col3 {
+		width: 20%;
+		height: 80%;
+	}
+.amenu
+{
+	text-decoration: none;
+	color: maroon;
+	font-family: Impact;
+	display: block;
+	height: 30px;
+	border: 5px outset silver;
+	text-align: center;
+}
+
+.amenu:hover
+{
+	color: yellow;
+	background-color: silver;
+}
+
+
+form {	
+			 /* min-width: 260px; */
+				font: 600 13px Sans-serif;
+			}
+			fieldset, p {
+				margin: 0;
+				padding: 0;				
+			}
+			fieldset {
+				border: none;
+			}
+			fieldset.form, fieldset.button {
+				border-radius: 5px;
+			}
+			fieldset.form {
+				margin: 0;
+				padding: 20px 0px 32px 18px;
+				border: solid 1px #d7dcdd;
+			}
+			fieldset.info, fieldset.login {
+				margin-bottom: 24px;
+			}
+			p, label, input, legend {
+				font: 600 13px Sans-serif;
+			}
+			label {
+				width: 80px;
+				display: block;
+				padding: 5px 0;
+				float: left;
+				clear: left;
+			}
+			fieldset.info p {
+				margin-bottom: 10px;
+			}
+			fieldset.login p {
+				margin-bottom: 12px;
+			}
+			fieldset.form input {
+				width: 212px;	
+				margin-right: 5px;
+				padding: 3px;
+				border: solid 1px #c1c1c1;				
+			}
+			fieldset.captcha legend {
+				margin: 0 0 12px 0;
+				padding: 0;
+			}
+			fieldset.button {
+				margin: 7px 0 0;
+				padding: 0;
+				background: #e3e3e3;
+			}
+			input[type="image"] {
+				margin: 10px auto 5px 8%;
+			}
+			span {
+				display: none;				
+			}
+			span.ok {				
+				color: #00a200;
+				font: 15px Sans-Serif;
+			}
+			input:valid ~ span.ok {
+				display: inline;
+			}
+			span.nook, span#bad_captcha {
+				color: #c00;
+			}
+			span.nook {
+				font: 900 13px Sans-Serif;				
+			}
+			span#bad_captcha {
+				padding-left: 7px;
+			}
+			input:invalid ~ span.nook, input:invalid ~ span#bad_captcha {
+				display: inline;
+			}
+		</style>
+		<!--[if lte IE 9]>
+			<style>
+				fieldset.info span.ok, fieldset.login span.ok {
+					display: inline;
+				}
+				fieldset.captcha span.nook, fieldset.captcha span#bad_captcha {
+				}
+			</style>
+		<![endif]-->
+		<!--[if lte IE 8]>
+			<style>
+				body, form {
+					margin: 0;
+					padding: 0;
+				}
+				body {
+					margin: 8px;
+				}
+			</style>
+		<![endif]-->
+		
+<!--a href='index.php'Главная страницаa-->
+
+.q{
+	display: block;
+}
